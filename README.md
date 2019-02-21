@@ -7,21 +7,10 @@ My code utilized a Fully Convolutional Network (FCN) to label the pixels of road
 ![fcn_architecture2](./fcn_architecture2.JPG)
 
 Hyperparameters are chose with balance with accuracy and efficiency. L2 regularizer(1e-3) are used for all layers. Keep_prob is set to 0.5, learning rate = 0.0001. batch_siz =5.
-With epochs =1, loss = 0.235. When epochs =10, loss = 0.108. Finally we use epochs =50, loss = 0.01.
+With epochs =1, loss = 0.235. When epochs =10, loss = 0.108. Finally we use epochs =50, loss = 0.01~0.02.
 
 All the labeled plots are in plots folder. Majority of them are correctly labeled with road vs non-road.
 
-<<<<<<< HEAD
-#### Outputs Snapshots
-=======
-#### Outputs Snopshots
->>>>>>> 71b63745818a9e1ab07e157f121a95e6957b073b
-Here are examples of a sufficient vs. insufficient output from the trained network with epochs =50 vs 10:
-
-Sufficient Result (epochs=50)         |  Insufficient Result(epochs=10)
-:-------------------------:|:-------------------------:
-<<<<<<< HEAD
-![Sufficient](./plots/epochs_50/um_000004.png)  |  ![Insufficient](./plots_epochs_10/um_000004.png)
-=======
-![Sufficient](./plots/epochs_50/um_000004.png)  |  ![Insufficient](./plots_epochs_10/um_000004.png)
->>>>>>> 71b63745818a9e1ab07e157f121a95e6957b073b
+Here are some examples :
+![plot1](./plots/epochs_50/um_000049.png)  
+![plot1](./plots/epochs_10/um_000004.png)  
