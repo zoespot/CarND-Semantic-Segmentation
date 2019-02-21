@@ -11,6 +11,7 @@ With epochs =1, loss = 0.235. When epochs =10, loss = 0.108. Finally we use epoc
 
 All the labeled plots are in plots folder. Majority of them are correctly labeled with road vs non-road.
 
-Here are some examples :
-![plot1](./plots/epochs_50/um_000049.png)  
-![plot1](./plots/epochs_10/um_000004.png)  
+Here are some examples:
+
+![plot1](./plots/epochs_10/um_000049.png)  
+![plot2](./plots/epochs_10/um_000005.png)  
