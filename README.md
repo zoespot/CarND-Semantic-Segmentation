@@ -1,6 +1,8 @@
 # Semantic Segmentation
 Self-Driving Car Engineer Nanodegree Program Term3 Project 2
 
+[![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+
 My code utilized a Fully Convolutional Network (FCN) to label the pixels of road in images. The FCN architecture is as below. Skip layer from VGG layer 3, 4 and 7 are combined with upsampled 1x1 convolutional layers.
 
 ![fcn_architecture1](./fcn_architecture1.JPG)
